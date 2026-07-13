@@ -71,7 +71,7 @@ The entire project was executed remotely from Windows to prove headless server m
 
 ```powershell
 # Windows PowerShell
-PS C:\Users\User > ssh yemi@192.168.0.194
+PS C:\Users\User > ssh yemi@192.168.0.184
 yemi@yemidevbox:~$
 ```
 ![SSH Connection](screenshots/ssh-connection.png)
@@ -81,7 +81,7 @@ Built a logical directory tree to organize application components.
 
 ```bash
 # Create the directory structure
-yemi@yemidevbox:/opts$ sudo mkdir -p staging_apps/{src, logs, config, backup}
+yemi@yemidevbox:/opt$ sudo mkdir -p staging_apps/{src, logs, config, backup}
 
 # verify the structure
 yemi@yemidevbox:/opt$ ls -R staging_apps/
