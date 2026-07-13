@@ -74,7 +74,7 @@ The entire project was executed remotely from Windows to prove headless server m
 PS C:\Users\User > ssh yemi@192.168.0.194
 yemi@yemidevbox:~$
 ```
-https://screenshots/ssh-connection.png
+![SSH Connection](screenshots/ssh-connection.png)
 
 ### 2. Filesystem Architecture
 Built a logical directory tree to organize application components.
@@ -94,7 +94,7 @@ staging_apps/logs:
 staging_apps/src:
 ```
 
-https://screenshots/directory-structure.png
+![Directory Structure](screenshots/directory-structure.png)
 
 ### 3. User & Group Management (IAM Simulation)
 
@@ -134,7 +134,7 @@ Dev_Tobi@yemidevbox:`$ sudo systemctl restart nginx
 Failed to restart nginx.service:Unit nginx.service not found.
 ```
 
-https://screenshots/user-restriction.png
+![User Restriction](screenshots/user-restriction.png)
 
 ### 4. Scripting with Vim
  
@@ -168,7 +168,7 @@ Deployment ran by user: root at Thu Jul 9 12:12:17 PM UTC 2026
 Deployment ran by user: root at Thu Jul 9 12:42:39 PM UTC 2026
 ```
 
-https://screenshots/script-logs.png
+![Scripts and Logs](screenshots/script-logs.png)
 
 ### 5. Permission Hardening
 Secured sensitive folders with Strict permissions - Only root can access `secure_archive`
@@ -192,7 +192,7 @@ drwx------ 2 root root 4096 Jul 9 12:19 secure_archive
 ```
 
 
-https://screenshots/permissions.png
+![Permisions](screenshots/permissions.png)
 
 ## Final Dircectory Structure
 
